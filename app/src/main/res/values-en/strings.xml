@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness 2020</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2772878414290299/3493824313</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_egzersiz">Exercises</string>
+    <string name="button_hakkinda">About</string>
+    <string name="button_program">Workouts</string>
+    <string name="button_ayarlar">Settings</string>
+    <string name="button_cikis">Exit</string>
+    <string name="button_kalca">Glutes</string>
+    <string name="button_karin">Abs</string>
+    <string name="button_omuz">Shoulders</string>
+    <string name="button_gogus">Chest</string>
+    <string name="button_onkol">Biceps</string>
+    <string name="button_arkakol">Triceps</string>
+    <string name="button_bilek">Forearms</string>
+    <string name="button_sirt">Back</string>
+    <string name="button_onbacak">Quads</string>
+    <string name="button_arkabacak">Hamstrings</string>
+    <string name="product_image"></string>
+    <string name="resim">Picture</string>
+    <string name="Egzersizs"></string>
+    <string name="Egzersiz_ekrani">Exercise Screen</string>
+    <string name="button_egzersiz_ekle">Add Exercise</string>
+    <string name="musa_selman_kundurac_">Musa Selman Kunduracı</string>
+    <string name="developer_text">Developer</string>
+    <string name="emre_yildiz">Emre Yıldız</string>
+    <string name="turkatletizm_websitesi">www.antrenman.org</string>
+    <string name="kas_listesi">Muscle List</string>
+    <string name="Omuz">Shoulders</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="tciceps">Triceps</string>
+    <string name="abs">Abdominals</string>
+    <string name="back">Back</string>
+    <string name="biceps">Biceps</string>
+    <string name="lats">Lats</string>
+    <string name="traps">Traps</string>
+    <string name="lowerlegs">Hamstrings</string>
+    <string name="calves">Calves</string>
+    <string name="all_kas">All</string>
+    <string name="upperlegs">Quads</string>
+    <string name="chests">Chest</string>
+    <string name="glutes">Glutes</string>
+    <string name="bands">Bosu Ball</string>
+    <string name="barbell">Barbell</string>
+    <string name="bench">Bench</string>
+    <string name="bodyonly">Body Only</string>
+    <string name="dumbbell">Dumbbells</string>
+    <string name="exercises_ball">Exercise Ball</string>
+    <string name="z_bari">EZ Curl Bar</string>
+    <string name="foam_roll">V-Bar</string>
+    <string name="kettlebell">Cable</string>
+    <string name="machine_cardio">Machine</string>
+    <string name="machine_strength">Medicine Ball</string>
+    <string name="pull_up_bar">Pull Up Bar</string>
+    <string name="other_ekipman">Other</string>
+    <string name="weight_plate">Parallel Bars</string>
+
+    <string-array name="kas_grup">
+        <item>All</item>
+        <item>Hamstrings</item>
+        <item>Triceps</item>
+        <item>Back</item>
+        <item>Quads</item>
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Abs</item>
+        <item>Biceps</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+    </string-array>
+    <string-array name="kas_grup_en">
+        <item>All</item>
+        <item>Hamstrings</item>
+        <item>Triceps</item>
+        <item>Back</item>
+        <item>Quads</item>
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Abs</item>
+        <item>Biceps</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+    </string-array>
+
+    <string name="title_activity_routine">RoutineActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rworks">RWorksActivity</string>
+    <string name="title_activity_works">WorksActivity</string>
+    <string name="equipment_txt">Equipment:</string>
+    <string name="mainmuschle">Main muscle:</string>
+    <string name="steps_txt">Steps:</string>
+    <string name="keywords">Key Word (Optional)</string>
+    <string name="search">Search</string>
+    <string name="cinsiyeterkek">Male</string>
+    <string name="cinsiyetkadin">Female</string>
+    <string name="your_gender">Gender</string>
+    <string name="next">Next</string>
+    <string name="yourname">Your Name</string>
+    <string name="secondarymuscle">Secondary muscle</string>
+    <string name="type">Type</string>
+    <string name="egzersizrehberi">Exercise Guide</string>
+    <string name="routineandtrainingprogram">Routines and Training Programs</string>
+    <string name="profiledetails">Your Profile Details</string>
+    <string name="aboutprogram">About Program</string>
+    <string name="cikmaonay">Do you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="time">Duration</string>
+    <string name="odakbolgesi">Focus Zone</string>
+    <string name="exercise">Exercise</string>
+    <string name="excellent">Excellent</string>
+    <string name="rest">Rest</string>
+    <string name="skip">Skip</string>
+    <string name="creatingprofile">"Creating a Profile "</string>
+    <string name="boy">Height</string>
+    <string name="kilo">Weight</string>
+    <string name="vki">Body Mass Index(BMI)</string>
+</resources>

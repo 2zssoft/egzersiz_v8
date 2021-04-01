@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    signingConfigs {
+        config {
+            keyPassword '2360571'
+            storeFile file('C:/Users/2zs/fitness2020key.jks')
+            storePassword '2360571'
+            keyAlias 'selman'
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.zs.fitness"
+        minSdkVersion 19
+        versionCode 12
+        versionName "2.9"
+        targetSdkVersion 28
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+}
+dependencies {
+    implementation files('libs/bodyeditor-loader-sources.jar')
+    implementation files('libs/bodyeditor-loader.jar')
+
+    implementation files('libs/tween-engine-api-sources.jar')
+    implementation files('libs/tween-engine-api.jar')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+    testImplementation 'junit:junit:4.13'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'in.championswimmer:Android-SocialButtons:1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'nl.dionsegijn:konfetti:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.luolc:emoji-rain:0.1.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+}

@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="arkaplan">#ffffff</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="zayif">#2196F3</color>
+    <color name="normal">#4CAF50</color>
+    <color name="hafifobez">#FF9800</color>
+    <color name="obez">#FF5722</color>
+    <color name="asiriobez">#bb0909</color>
+
+</resources>

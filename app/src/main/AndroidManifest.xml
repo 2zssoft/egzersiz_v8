@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zs.fitness">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/egzersiz_icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/egzersiz_icon"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.zs.fitness.MainActivityDeneme"></activity>
+
+        <meta-data
+
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2772878414290299~6212668568" />
+
+        <activity
+            android:name="com.zs.fitness.MainActivity"
+          
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.egzersiz_kasgrup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.Liste"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.Kasgrup_liste"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.hakkinda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.WorksActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.RWorksActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.Urun"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.URUN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zs.fitness.RoutineActivity"
+            android:label="@string/title_activity_routine"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.zs.fitness.RutinBaslamaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RUTINBASLA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zs.fitness.DinlenmeActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.BitmeActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.IntroActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zs.fitness.KayitCinsiyetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.KayitKAdiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zs.fitness.KayitBoyKiloActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.zs.fitness.ProfileActivity" />
+    </application>
+
+</manifest>

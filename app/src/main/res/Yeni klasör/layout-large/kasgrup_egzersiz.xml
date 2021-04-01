@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|center" >
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/button_omuz"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="140dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="1dp"
+             android:text="@string/shoulders"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_arkakol"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:padding="0sp"
+             android:text="@string/tciceps"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_sirt"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:padding="0dp"
+             android:text="@string/back"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_kalca"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:padding="0sp"
+             android:text="@string/glutes"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_arkabacak"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:padding="0sp"
+             android:text="@string/lowerlegs"
+             android:textSize="15sp" />
+
+         <Button
+             android:id="@+id/button__hepsi"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="0dp"
+             android:text="All"
+             android:textSize="16sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent" >
+
+         <ImageView
+             android:id="@+id/imageView_kaslar"
+             android:layout_width="320dp"
+             android:layout_height="wrap_content"
+             android:src="@drawable/kasli_kosan" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/button_gogus1"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="140dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="1dp"
+             android:text="@string/chests"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_onkol"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="1dp"
+             android:text="@string/biceps"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_karin"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="1dp"
+             android:text="@string/abs"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_bilek"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:padding="0dp"
+             android:text="@string/forearms"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_onbacak"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="1dp"
+             android:text="@string/upperlegs"
+             android:textSize="16sp" />
+
+         <Button
+             android:id="@+id/button_kalf"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:paddingBottom="0dp"
+             android:paddingLeft="0dp"
+             android:paddingRight="0dp"
+             android:paddingTop="0dp"
+             android:text="Calves"
+             android:textSize="16sp" />
+
+     </LinearLayout>
+        
+      </LinearLayout>
+

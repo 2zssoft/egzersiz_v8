@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Key Word (Optional)" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Muscle Group: " />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Equipment: " />
+
+        <CheckBox
+            android:id="@+id/checkBox_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center_vertical"
+            android:text="Check All" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_barbell"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/barbell" />
+
+        <CheckBox
+            android:id="@+id/checkBox_bosu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/bands" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_bench"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/bench" />
+
+        <CheckBox
+            android:id="@+id/checkBox_bodyonly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="false"
+            android:text="@string/bodyonly" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_dumbell"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/dumbbell" />
+
+        <CheckBox
+            android:id="@+id/checkBox_exercisesball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/exercises_ball" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_z_bari"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/z_bari" />
+
+        <CheckBox
+            android:id="@+id/checkBox_v_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/foam_roll" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_cable"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/kettlebell" />
+
+        <CheckBox
+            android:id="@+id/checkBox_machine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/machine_cardio" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_medicine_ball"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/machine_strength" />
+
+        <CheckBox
+            android:id="@+id/checkBox_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/other_ekipman" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox_pullup_bar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/pull_up_bar" />
+
+        <CheckBox
+            android:id="@+id/checkBox_parallel_bars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/weight_plate" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_ara"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+
+    </TableRow>
+
+</LinearLayout>
